@@ -15,7 +15,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    await axios.post("http://localhost:5000/submit", formData);
+    await axios.post("https://mern-backend-hqy6.onrender.com/submit", formData);
     alert("Data submitted!");
   };
 
